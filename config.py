@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 21434506
+API_HASH = "6a5cd0f49f15d0edfbde7037bf704571"
+BOT_TOKEN = "8061741022:AAEzX-WadwRDQ5TVEd_jMd2CSwvGqedryEE"
+MONGO_DB_URI = "mongodb+srv://Thegoatfl4me:Thegoatfl4me@cluster0.e1eyy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOGGER_ID = 
-OWNER_ID = 
+LOGGER_ID = -1001512869496
+OWNER_ID = 7642159940
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -30,8 +30,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Fl4me_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Fl4me_chats")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -53,7 +53,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = ""
+STRING1 = "BQA9QOEAUFeHQSjZrcBMiVvbvEVQLbIrBPAjYDvs16d8JwRz0kG_7_-MwIFwy45dT9T2PiMrIzhMPCSmPJXehhN7t2aW3VpDiUJHhiQ6gA21q8pLNxFYoVd88fSuDzTBfIQV6bAhfBdyhkb-8y4rgW4VEiTndJdHj-8I4LCoiRheDAAIhknlREO3SURI2ux-mjwNISZLfsRJbGPg8hCwYuuPrZ5aYGHdl4XEp8Pbs_AUQZAU0_492nuGC-4iTyF25LX-ZKkK-T2kTbAQbebW8Q7qB-w4filscuFiOVAKaBaypTkHFQPan0ww6TVo66STsqle2A3bumc3Jjx6XSlygKJbhiX6dAAAAAHUajo1AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -69,7 +69,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/24c3i0.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
